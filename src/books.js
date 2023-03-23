@@ -1,31 +1,34 @@
+import img1 from './images/young_forever.jpg';
+import img2 from './images/it-ends-with-us.jpg';
+import img3 from './images/lessons-in-chem.jpg';
+import img4 from './images/it-starts-with-us.jpg';
+
 export const books = [
     {
         author: 'Dr. Mark Hyman MD',
         title: 'Young Forever',
-        img: './images/young_forever.jpg',
+        img: img1,
         id: 1,
     },
 
     {
         author: 'Colleen Hoover',
         title: 'It Ends with Us',
-        img: './images/it-ends-with-us.jpg',
+        img: img2,
         id: 2,
     },
 
     {
         author: 'Bonnie Garmus',
         title: 'Lessons in Chemistry',
-        img: './images/lessons-in-chem.jpg',
+        img: img3,
         id: 3,
     },
 
     {
         author: 'Colleen Hoover',
         title: 'It Starts with Us',
-        img: './images/it-starts-with-us.jpg.jpg',
+        img: img4,
         id: 4,
     },
 ];
-
-
